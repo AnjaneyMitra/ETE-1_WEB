@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cat Breeds</title>
+  <style>
+    body {
+      background-color: #e0cfcf;
+      font-family: sans-serif; 
+    }
+    nav {
+    background-color: #f1f1f1;
+    padding: 10px;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: inline;
+        margin-right: 10px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #333;
+    }
+
+    nav ul li a:hover {
+        color: #666;
+    }
+
+    .cat-card {
+      background-color: #fff; 
+      border-radius: 8px; 
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+      padding: 20px;
+      margin-bottom: 20px;
+      display: flex; 
+      align-items: center; 
+    }
+
+    .cat-card img {
+      max-width: 200px; 
+      height: auto;
+      margin-right: 20px;
+      border-radius: 4px; 
+    }
+
+    .cat-details {
+      flex: 1; 
+    }
+
+    .cat-details h2 {
+      margin-top: 0;
+      font-size: 1.5em;
+      color: #333; 
+    }
+
+    .cat-details p {
+      margin-bottom: 5px;
+      color: #666; 
+    }
+  </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="cat_generate.html">Images</a></li>
+            <li><a href="form.html">Form</a></li>
+        </ul>
+    </nav>
+  <h1>Cat Breeds</h1>
+  <div id="catContainer"></div>
+  <!-- Container for Fetched Data-->
+
+  <script>
+    const catContainer = document.getElementById('catContainer');
+
+    fetch('https://raw.githubusercontent.com/AnjaneyMitra/ETE-1_WEB/main/cat_data.json') //github fetch api call
+        .then(response => response.json())
+        .then(data => {
+            data.forEach(cat => {
+                const catCard = document.createElement('div'); 
+                catCard.classList.add('cat-card');
+
+                const image = document.createElement('img'); //append image to container
+                image.src = cat.url;
+                catCard.appendChild(image);
+
+                const catDetails = document.createElement('div');
+                catDetails.classList.add('cat-details');
+                // append each attribute from json to container indiviually
+                const name = document.createElement('h2');
+                name.textContent = cat.name;
+                catDetails.appendChild(name);
+
+                const temperament = document.createElement('p');
+                temperament.textContent = `Temperament: ${cat.temperament}`;
+                catDetails.appendChild(temperament);
+
+                const origin = document.createElement('p');
+                origin.textContent = `Origin: ${cat.origin}`;
+                catDetails.appendChild(origin);
+
+                const description = document.createElement('p');
+                description.textContent = cat.description;
+                catDetails.appendChild(description);
+
+                const lifeSpan = document.createElement('p');
+                lifeSpan.textContent = `Life Span: ${cat.life_span} years`;
+                catDetails.appendChild(lifeSpan);
+
+                catCard.appendChild(catDetails); 
+                catContainer.appendChild(catCard);
+            });
+        })
+        //check for errors
+        .catch(error => console.error('Error fetching cat data:', error));
+  </script>
+</body>
+</html>
