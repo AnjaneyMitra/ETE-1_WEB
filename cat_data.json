@@ -1,56 +1,56 @@
 [
     {
-        "id": "aege",
-        "name": "Aegean",
-        "temperament": "Affectionate, Social, Intelligent, Playful, Active",
-        "origin": "Greece",
-        "description": "Native to the Greek islands known as the Cyclades in the Aegean Sea, these are natural cats, meaning they developed without humans getting involved in their breeding. As a breed, Aegean Cats are rare, although they are numerous on their home islands. They are generally friendly toward people and can be excellent cats for families with children.",
-        "life_span": "9-12",
-        "url": "https://cdn2.thecatapi.com/images/ozEvzdVM-.jpg"
+      "id": "aege",
+      "name": "Aegean",
+      "temperament": "Affectionate, Social, Intelligent, Playful, Active",
+      "origin": "Greece",
+      "description": "Native to the Greek islands known as the Cyclades in the Aegean Sea, these are natural cats, meaning they developed without humans getting involved in their breeding. As a breed, Aegean Cats are rare, although they are numerous on their home islands. They are generally friendly toward people and can be excellent cats for families with children.",
+      "life_span": "9-12",
+      "url": "https://cdn2.thecatapi.com/images/ozEvzdVM-.jpg"
     },
     {
-        "id": "abys",
-        "name": "Abyssinian",
-        "temperament": "Active, Energetic, Intelligent, Curious, Playful",
-        "origin": "Ethiopia",
-        "description": "The Abyssinian is a breed of domestic short-haired cat with a distinctive ticked tabby coat. They are known for their playful and energetic personalities, as well as their intelligence and curiosity.",
-        "life_span": "9-15",
-        "url": "https://cdn2.thecatapi.com/images/0XYvRd7oD.jpg"
+      "id": "abys",
+      "name": "Abyssinian",
+      "temperament": "Active, Energetic, Independent, Intelligent, Gentle",
+      "origin": "Ethiopia",
+      "description": "The Abyssinian is athletic, agile, and playful, with a distinctive ticked coat. They are known for their curiosity and love of exploring.",
+      "life_span": "9-15",
+      "url": "https://cdn2.thecatapi.com/images/3DKVvEQvJ.jpg"
     },
     {
-        "id": "aege",
-        "name": "American Bobtail",
-        "temperament": "Intelligent, Interactive, Lively, Playful, Friendly",
-        "origin": "United States",
-        "description": "American Bobtails are loving and incredibly intelligent cats possessing a distinctive wild appearance. They are friendly and outgoing, accepting of guests, and patient with children.",
-        "life_span": "11-15",
-        "url": "https://cdn2.thecatapi.com/images/hBXicehMA.jpg"
+      "id": "aege",
+      "name": "American Bobtail",
+      "temperament": "Intelligent, Interactive, Lively, Playful, Sensitive",
+      "origin": "United States",
+      "description": "American Bobtails are known for their short, naturally bobbed tails and dog-like personalities. They are friendly and enjoy playing fetch.",
+      "life_span": "11-15",
+      "url": "https://cdn2.thecatapi.com/images/hBXicehMA.jpg"
     },
     {
-        "id": "amau",
-        "name": "American Curl",
-        "temperament": "Affectionate, Sociable, Gentle, Intelligent, Curious",
-        "origin": "United States",
-        "description": "Distinguished by truly unique ears that curl back in a graceful arc, offering an alert, perky, happily surprised expression, they cause people to break out into a big smile. ",
-        "life_span": "12-16",
-        "url": "https://cdn2.thecatapi.com/images/vJB8rwfdG.jpg"
+      "id": "asho",
+      "name": "American Shorthair",
+      "temperament": "Adaptable, Affectionate, Gentle, Intelligent, Quiet",
+      "origin": "United States",
+      "description": "American Shorthairs are a classic breed known for their easygoing personalities and sturdy build. They are good with children and other pets.",
+      "life_span": "15-20",
+      "url": "https://cdn2.thecatapi.com/images/0fN7dkaO0.jpg"
     },
     {
-        "id": "amis",
-        "name": "American Shorthair",
-        "temperament": "Gentle, Calm, Friendly, Affectionate",
-        "origin": "United States",
-        "description": "The American Shorthair is known for its longevity, robust health, good looks, sweet personality, and amiability with children, dogs, and other pets.",
-        "life_span": "15-20",
-        "url": "https://cdn2.thecatapi.com/images/KJF8fB_2o.jpg"
+      "id": "bali",
+      "name": "Balinese",
+      "temperament": "Affectionate, Intelligent, Playful, Social, Vocal",
+      "origin": "United States",
+      "description": "Balinese cats are essentially long-haired Siamese cats. They are known for their striking blue eyes, silky coats, and talkative nature.",
+      "life_span": "10-15",
+      "url": "https://cdn2.thecatapi.com/images/13MkvUreZ.jpg"
     },
     {
-        "id": "bamb",
-        "name": "Bambino",
-        "temperament": "Affectionate, Friendly, Energetic, Playful",
-        "origin": "United States",
-        "description": "The Bambino cat is a breed of cat created as a cross between the Sphynx and the Munchkin breeds. The Bambino cat has short legs, large ears, and is usually hairless. They love to be handled and cuddled up on the laps of their family members.",
-        "life_span": "12-14",
-        "url": "https://cdn2.thecatapi.com/images/zIFE8Cl_—.jpg"
+      "id": "beng",
+      "name": "Bengal",
+      "temperament": "Energetic, Intelligent, Playful, Alert, Confident",
+      "origin": "United States",
+      "description": "Bengals are a hybrid breed with a wild appearance due to their leopard-like spotted coats. They are active and enjoy interactive play.",
+      "life_span": "12-16",
+      "url": "https://cdn2.thecatapi.com/images/QJ6nW6rcT.jpg"
     }
-]
+  ]
